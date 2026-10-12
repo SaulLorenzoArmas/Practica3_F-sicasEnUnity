@@ -1,6 +1,7 @@
 # Práctica de Unity: Situaciones Físicas
 
 **Autor:** Saúl Lorenzo Armas
+
 **Gmail:** alu0101642468@ull.edu.es
 
 Partiendo de un mismo escenario, se va cambiando la configuración de cada objeto (poniendo y quitando físicas, haciéndolos cinemáticos o Triggers) para comprobar cómo cambia la reacción del motor de Unity ante cada situación.
