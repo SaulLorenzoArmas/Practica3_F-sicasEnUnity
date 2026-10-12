@@ -28,7 +28,7 @@ Se puede hacer uso de este tipo de funciones, ya que los objetos que colisionen 
 
 ### Ejercicio 3: Triggers 
 
-En este ejercicio, dejan de ser choques entre objetos físicos y se convierten en colisiones entre un objeto dinámico y las zonas "fantasma". Estas zonas tienen la casilla `Is Trigger` activada, por lo que 
+En este ejercicio, dejan de ser choques entre objetos físicos y se convierten en colisiones entre un objeto dinámico y las zonas fantasma. Estas zonas tienen la casilla `Is Trigger` activada, por lo que 
 se usan eventos Trigger.
 
 Concretamente, se usó del evento `OnTriggerStay()` para que, mientras el personaje esté en una de estas zonas, cambie de color o reciba daño. Asimismo, los eventos `OnTriggerEnter()` y `OnTriggerExit()` se usan para detectar cuándo el personaje entra y sale de la zona, y restaurar el color o el daño original del personaje.
