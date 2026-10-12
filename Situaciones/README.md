@@ -8,13 +8,13 @@ Partiendo de un mismo escenario, se va cambiando la configuración de cada objet
 ---
 
 ### Situación 1
-
+---
 <img width="2878" height="1558" alt="Ejercicio1 1_Supuestos" src="https://github.com/user-attachments/assets/409a58e2-ac68-4750-ac4d-d0a4bf28db81" />
 ---
 <img width="2876" height="1556" alt="Ejercicio1 2_supuestos" src="https://github.com/user-attachments/assets/ec402bb0-75b0-4605-9b80-76d2e8c98834" />
 ---
 <img width="2878" height="1564" alt="Ejercicio1 3_supuestos" src="https://github.com/user-attachments/assets/a821762e-5216-4d16-a607-5edd084d6cca" />
-
+---
 
 
 Como el cubo tiene físicas, la gravedad tira de él hasta que choca sobre el plano, que hace la función de suelo. La esfera, en cambio, no tiene físicas y es solo un Collider estático, por lo que se queda flotando en el aire. De forma que, aunque el cubo le caiga encima, la esfera no se moverá.
