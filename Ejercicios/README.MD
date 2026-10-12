@@ -15,6 +15,8 @@ Se crea un script que permite mover un objeto con `Rigidbody` usando las teclas 
 
 Un error común es mover el objeto usando `Transform.Translate()`, ya que una vez el objeto tiene un `Rigidbody`, el motor de física se encarga de moverlo y calcular las colisiones, por lo que si movemos el objeto con `Transform.Translate()`, se pueden producir lo conocido como aberraciones.
 
+
+
 ### Ejercicio 2: Colisiones y cambio de color
 
 
