@@ -28,7 +28,7 @@ Tanto el cubo como la esfera son objetos físicos. Ahora la esfera se ve afectad
 
 
 ### Situación 3
-La esfera se marca como física cinemática. Al hacer esto, el motor de físicas deja de moverla, por lo que se queda flotando en el aire, mientras que el cubo cae con normalidad.
+La esfera se marca como física cinemática. Al hacer esto, el motor de físicas deja de moverla, por lo que se queda flotando en el aire, mientras que el cubo cae.
 
 <img width="2878" height="1560" alt="Ejercicio3 1_Supuestos" src="https://github.com/user-attachments/assets/87555522-77a3-4095-9792-a5f52fdc3fd6" />
 ---
