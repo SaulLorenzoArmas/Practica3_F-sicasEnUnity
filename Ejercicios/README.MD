@@ -20,10 +20,11 @@ Un error común es mover el objeto usando `Transform.Translate()`, ya que una ve
 
 ### Ejercicio 2: Colisiones y cambio de color
 
-
 Aquí se prueban las colisiones creando varios objetos con `Rigidbody` dinámico (Rigidbody Collider). Usando la función `OnCollisionEnter()`, el script es capaz de detectar los choques, imprimir por consola el nombre del objeto que se ha golpeado y cambiarle el color del material.
 
 Se puede hacer uso de este tipo de funciones, ya que los objetos que colisionen son todos `Rigidbody` dinámicos, por lo que el motor de física calcula las colisiones y nos permite usar los eventos de colisión.
+
+<img width="2870" height="1536" alt="Ejercicio2_MovimientoFisico" src="https://github.com/user-attachments/assets/0f9bb74d-8412-43a4-b04f-ecf37d802df8" />
 
 ### Ejercicio 3: Triggers 
 
@@ -32,18 +33,30 @@ se usan eventos Trigger.
 
 Concretamente, se usó del evento `OnTriggerStay()` para que, mientras el personaje esté en una de estas zonas, cambie de color o reciba daño. Asimismo, los eventos `OnTriggerEnter()` y `OnTriggerExit()` se usan para detectar cuándo el personaje entra y sale de la zona, y restaurar el color o el daño original del personaje.
 
+<img width="2868" height="1496" alt="Ejercicio3_MovimientoFisico" src="https://github.com/user-attachments/assets/289a0d83-c658-420d-8f02-7c7bb28d7fdd" />
+
 ### Ejercicio 4: La Matriz de Colisiones (Layer Collision Matrix)
 
 En este ejercicio, se configura la *Layer Collision Matrix* para controlar cómo interactúan los objetos entre sí. Para ello, se separan los objetos en tres capas (jugador, enemigos y recolectables) y se configura dicha matriz. 
 
 De esta forma, los personajes pueden interactuar con los enemigos y los recolectables, pero los enemigos no pueden interactuar con los recolectables ni viceversa. Es por eso que, cuando el personaje llega a un recolectable, este muestra un mensaje por consola, pero si lo hace un enemigo, no pasa nada.
 
+<img width="1152" height="824" alt="ImagenEjercicio4" src="https://github.com/user-attachments/assets/20c363d8-1130-446e-9f63-f68eef4fff81" />
+
+<img width="1280" height="720" alt="Video Project 1" src="https://github.com/user-attachments/assets/507d469b-9d6f-410b-b4eb-a359ce3c5836" />
+
 ### Ejercicio 5: Materiales Físicos y AddForce
 
 Se crean diferentes materiales físicos y se aplican a diferentes objetos para simular diferentes superficies. Al detectar que se pulsa la tecla X con `Input.GetKeyDown(KeyCode.X)`, se les da un golpe a los objetos usando la función `Rigidbody.AddForce()`, con el modo de fuerza `ForceMode.Impulse` para que el golpe sea instantáneo. De esta forma, se puede ver cómo los objetos reaccionan de manera diferente según el material que tengan asignado.
+
+
+<img width="2848" height="1492" alt="Ejercicio5_MovimientoFisico" src="https://github.com/user-attachments/assets/0f1b28b7-093c-46f6-936c-3e105c7c04a6" />
 
 ### Ejercicio 6: Movimiento sin físicas
 
 Este ejercicio no se puede hacer siguiendo el enunciado, ya que al no poder usar el rigidbody, no se pueden usar las funciones del motor de físicas para detectar la colicion entre el cilindro y el cubo. El cilindro se mueve con `Transform.Translate()` hacia donde va la esfera, y al llegar a la altura del cubo, lo atraviesa, siguiendo su camino.
 
 Por ello, para conseguir un resultado similar al que se pide, al llegar a la altura del cubo, se cambia el material de este y se atraviesa, dejando que el cilindro siga hacia la esfera.
+
+<img width="2874" height="1486" alt="Ejercicio6_MovimientoFisico" src="https://github.com/user-attachments/assets/23adf837-345d-470e-b367-e972609d41c2" />
+
