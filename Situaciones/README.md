@@ -14,7 +14,6 @@ Partiendo de un mismo escenario, se va cambiando la configuración de cada objet
 <img width="2876" height="1556" alt="Ejercicio1 2_supuestos" src="https://github.com/user-attachments/assets/ec402bb0-75b0-4605-9b80-76d2e8c98834" />
 ---
 <img width="2878" height="1564" alt="Ejercicio1 3_supuestos" src="https://github.com/user-attachments/assets/a821762e-5216-4d16-a607-5edd084d6cca" />
----
 
 
 Como el cubo tiene físicas, la gravedad tira de él hasta que choca sobre el plano, que hace la función de suelo. La esfera, en cambio, no tiene físicas y es solo un Collider estático, por lo que se queda flotando en el aire. De forma que, aunque el cubo le caiga encima, la esfera no se moverá.
@@ -26,7 +25,6 @@ Como el cubo tiene físicas, la gravedad tira de él hasta que choca sobre el pl
 <img width="2878" height="1554" alt="Ejercicio2 2_Supuestos" src="https://github.com/user-attachments/assets/ddb84abd-f595-4eb2-bc82-07855e775a34" />
 ---
 <img width="2872" height="1556" alt="Ejercicio2 3_Supuestos" src="https://github.com/user-attachments/assets/1eb0af11-15a0-4de0-a6ae-675b6b877bd5" />
----
 
 Tanto el cubo como la esfera son objetos físicos. Ahora la esfera se ve afectada por la gravedad, es golpeada por el cubo y ambos reaccionan al impacto.
 
@@ -37,7 +35,6 @@ Tanto el cubo como la esfera son objetos físicos. Ahora la esfera se ve afectad
 <img width="2876" height="1560" alt="Ejercicio3 2_Supuestos" src="https://github.com/user-attachments/assets/47383849-64f5-46ed-8988-4140fa1ab799" />
 ---
 <img width="2878" height="1560" alt="Ejercicio3 3_Supuestos" src="https://github.com/user-attachments/assets/8adcf179-e218-4bc6-b7c6-5a0f0db04aab" />
----
 
 La esfera se marca como física cinemática. Al hacer esto, el motor de físicas deja de moverla, por lo que se queda clavada flotando en el aire, mientras que el cubo cae con normalidad.
 
@@ -46,7 +43,6 @@ La esfera se marca como física cinemática. Al hacer esto, el motor de físicas
 <img width="2876" height="1562" alt="Ejercicio4 1_Supuestos" src="https://github.com/user-attachments/assets/63712171-755c-4381-9616-51b1d9a37613" />
 ---
 <img width="2872" height="1562" alt="Ejercicio4 2_Supuestos" src="https://github.com/user-attachments/assets/ac027de1-eeba-454c-bb37-311bbac1f936" />
----
 
 
 El plano también es un objeto físico. Al tener los tres objetos `Rigidbody` normal, a todos les afecta la gravedad por igual. Al no haber nada que los aguante, los tres caen al vacío.
@@ -58,7 +54,6 @@ El plano también es un objeto físico. Al tener los tres objetos `Rigidbody` no
 <img width="2874" height="1556" alt="Ejercicio5 2_Supuestos" src="https://github.com/user-attachments/assets/db15fefb-75d6-4003-a3c3-beab5e59a2bc" />
 ---
 <img width="2878" height="1560" alt="Ejercicio5 3_Supuestos" src="https://github.com/user-attachments/assets/00285b54-12dd-4fb1-b6b1-e784101e52a7" />
----
 
 
 
@@ -72,12 +67,6 @@ A pesar de ser más pesada, ambos caen a la misma velocidad y llegan al suelo a 
 <img width="2868" height="1556" alt="Ejercicio6 2_Supuestos" src="https://github.com/user-attachments/assets/ebbe8802-f840-4743-b469-365544001605" />
 ---
 <img width="2878" height="1560" alt="Ejercicio6 3_Supuestos" src="https://github.com/user-attachments/assets/8236b6ea-c930-4954-981b-e9d58e09e407" />
----
-<img width="2878" height="1488" alt="Ejercicio7 2_supuestos" src="https://github.com/user-attachments/assets/eaa6caa7-4c92-47ac-84d8-88585d37d8b8" />
-<img width="2876" height="1492" alt="Ejercicio7 1_supuestos" src="https://github.com/user-attachments/assets/862c204d-95fe-48eb-8c07-5ee5cd91073e" />
-<img width="2876" height="1492" alt="Ejercicio7 1_supuestos" src="https://github.com/user-attachments/assets/301dca2c-73b8-4121-be62-5a11c15144a8" />
-<img width="2878" height="1488" alt="Ejercicio7 2_supuestos" src="https://github.com/user-attachments/assets/7a4057ff-8214-4706-9e6a-37834e7b46df" />
-
 
 Igual que en el caso anterior, pero ahora la esfera física tiene 100 veces más masa que el cubo. Por ellos, si chocan, la esfera empuja al cubo con mucha más fuerza y lo desplaza mucho más rápido.
 
@@ -87,7 +76,6 @@ Igual que en el caso anterior, pero ahora la esfera física tiene 100 veces más
 <img width="2876" height="1492" alt="Ejercicio7 1_supuestos" src="https://github.com/user-attachments/assets/9c666448-85c0-4eaf-9039-81a36df78ade" />
 ---
 <img width="2878" height="1488" alt="Ejercicio7 2_supuestos" src="https://github.com/user-attachments/assets/07daf9e4-0b2f-4ce2-9a5e-de03b7c58d6f" />
----
 
 Suponiendo que el plano vuelve a ser cinemático, ya que si se dejara como un objeto físico sin marcar como cinemático, pasaría lo mismo que en la Situación 4 y todo caería al vacío.
 
