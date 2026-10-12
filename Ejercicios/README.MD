@@ -1,5 +1,7 @@
 # Práctica de Unity: Ejercicios Físicas
+
 **Autor:** Saúl Lorenzo Armas
+
 **Gmail:** alu0101642468@ull.edu.es
 
 Aquí están los ejercicios realizados usando scripts de C#, donde se utilizan las funciones del motor de física, así como diferentes configuraciones de colisiones, áreas tipo *trigger* y cálculos matemáticos. El objetivo principal es mostrar cómo interactúan los objetos en los distintos ejercicios.
@@ -9,12 +11,11 @@ Aquí están los ejercicios realizados usando scripts de C#, donde se utilizan l
 
 ### Ejercicio 1: Movimiento con Rigidbody
 
-
-
 Se crea un script que permite mover un objeto con `Rigidbody` usando las teclas de dirección o las teclas WASD. Se utiliza `Input.GetAxis("Horizontal")` y `Input.GetAxis("Vertical")` para obtener el movimiento del jugador, y se usa`Rigidbody.MovePosition()`para mover el objeto usando las funciones del motor de física.
 
 Un error común es mover el objeto usando `Transform.Translate()`, ya que una vez el objeto tiene un `Rigidbody`, el motor de física se encarga de moverlo y calcular las colisiones, por lo que si movemos el objeto con `Transform.Translate()`, se pueden producir lo conocido como aberraciones.
 
+<img width="2876" height="1534" alt="Ejercicio1_MovimientoFisico" src="https://github.com/user-attachments/assets/91d7540c-22f0-490f-8a6b-ad91bcd2f30c" />
 
 
 ### Ejercicio 2: Colisiones y cambio de color
