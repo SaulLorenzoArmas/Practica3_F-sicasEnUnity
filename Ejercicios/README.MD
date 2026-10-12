@@ -13,7 +13,7 @@ Aquí están los ejercicios realizados usando scripts de C#, donde se utilizan l
 
 Se crea un script que permite mover un objeto con `Rigidbody` usando las teclas de dirección o las teclas WASD. Se utiliza `Input.GetAxis("Horizontal")` y `Input.GetAxis("Vertical")` para obtener el movimiento del jugador, y se usa`Rigidbody.MovePosition()`para mover el objeto usando las funciones del motor de física.
 
-Un error común es mover el objeto usando `Transform.Translate()`, ya que una vez el objeto tiene un `Rigidbody`, el motor de física se encarga de moverlo y calcular las colisiones, por lo que si movemos el objeto con `Transform.Translate()`, se pueden producir lo conocido como aberraciones.
+Un error es mover el objeto usando `Transform.Translate()`, ya que una vez el objeto tiene un `Rigidbody`, el motor de física se encarga de moverlo y calcular las colisiones, por lo que si movemos el objeto con `Transform.Translate()`, se pueden producir lo conocido como aberraciones.
 
 <img width="2876" height="1534" alt="Ejercicio1_MovimientoFisico" src="https://github.com/user-attachments/assets/91d7540c-22f0-490f-8a6b-ad91bcd2f30c" />
 
